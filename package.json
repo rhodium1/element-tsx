@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.9.1",
+    "less-loader": "^5.0.0",
     "vue": "^2.6.10",
     "vue-property-decorator": "^8.1.1",
     "vue-tsx-support": "^2.3.0"
@@ -17,6 +19,8 @@
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-typescript": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
+    "less": "^3.9.0",
+    "style-loader": "^0.23.1",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.6.10"
   }

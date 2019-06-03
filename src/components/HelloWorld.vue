@@ -32,9 +32,13 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import Button from './button';
 
 export default Vue.extend({
   name: 'HelloWorld',
+  components: {
+    'my-button': Button,
+  },
   props: {
     msg: String,
   },
